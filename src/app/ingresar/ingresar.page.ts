@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IngresarPage implements OnInit {
 
+  public alertButtons = ['OK'];
+  public alertInputs = [
+    {
+      placeholder: 'Codigo de grua',
+    },
+    
+  ];
+
   constructor() { }
 
   ngOnInit() {

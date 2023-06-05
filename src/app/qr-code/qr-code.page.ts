@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./qr-code.page.scss'],
 })
 export class QrCodePage implements OnInit {
+  qrString = 'codigo'
 
   constructor() { }
 

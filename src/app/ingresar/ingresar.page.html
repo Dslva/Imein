@@ -5,9 +5,20 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">ingresar</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-button id="btn-ingresar" class="btn btn-uno" expand="block">ingresar</ion-button>
+  <ion-button id="btn-editar" class="btn" expand="block">Editar</ion-button> 
+  <ion-button id="btn-eliminar" class="btn" expand="block">eliminar</ion-button> 
+
+  <ion-alert
+  trigger="btn-editar"
+  header="Ingresar codigo"
+  [buttons]="alertButtons"
+  [inputs]="alertInputs"></ion-alert>
+  <ion-alert
+  trigger="btn-eliminar"
+  header="Ingresar codigo"
+  [buttons]="alertButtons"
+  [inputs]="alertInputs"
+  ></ion-alert>
+
 </ion-content>
