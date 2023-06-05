@@ -1,3 +1,7 @@
+ion-card{
+    margin-top: 35%;
+}
+
 .info-content{
     position: relative;
     width: 100%;
@@ -8,7 +12,7 @@
 img {
     width: 40%;
     border-radius: 50%;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 .info-nom{
     font-size: 30px;
@@ -18,4 +22,16 @@ img {
     font-size: 17px;
     margin-top: 5px;
 
+}
+.div-info{
+    margin-top: 7%;
+    font-size: large;
+    
+}
+.info{
+    margin-bottom: 5px;
+}
+.div-btns-ajustes{
+    margin-top: 8%;
+    margin-bottom: 5%;
 }

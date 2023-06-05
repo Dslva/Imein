@@ -11,8 +11,7 @@ export class IngresarPage implements OnInit {
   public alertInputs = [
     {
       placeholder: 'Codigo de grua',
-    },
-    
+    },    
   ];
 
   constructor() { }
